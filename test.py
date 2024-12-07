@@ -1,3 +1,4 @@
+#変数　条件文　繰り返し文　リスト
 print('Hello World')
 print("Good morning")
 
@@ -25,5 +26,5 @@ for i in range(10):
   elif i == 2: continue
   print(list_a[i])
 
-
+print(list_a[2:5])
 
