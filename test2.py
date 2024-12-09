@@ -34,6 +34,9 @@ y_v = list(price.values())
 print(x_v)
 print(y_v)
 
+for name, values in price.items():
+  print(f"{name}の値段は{values}です")
+
 
 
 average = ave(9, 4, 2)
